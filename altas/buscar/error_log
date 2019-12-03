@@ -1,0 +1,332 @@
+[29-Sep-2019 23:41:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[29-Sep-2019 23:41:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:41:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:41:59 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'akiraweb_ch.nombre_proyecto' doesn't exist in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php:21
+Stack trace:
+#0 /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php(21): PDO->query('SELECT idp, nom...')
+#1 {main}
+  thrown in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 21
+[29-Sep-2019 23:42:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[29-Sep-2019 23:42:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:42:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:42:06 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'akiraweb_ch.nombre_proyecto' doesn't exist in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php:21
+Stack trace:
+#0 /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php(21): PDO->query('SELECT idp, nom...')
+#1 {main}
+  thrown in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 21
+[29-Sep-2019 23:42:07 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[29-Sep-2019 23:42:07 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:42:07 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:42:07 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'akiraweb_ch.nombre_proyecto' doesn't exist in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php:21
+Stack trace:
+#0 /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php(21): PDO->query('SELECT idp, nom...')
+#1 {main}
+  thrown in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 21
+[29-Sep-2019 23:42:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[29-Sep-2019 23:42:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:42:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:42:59 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'akiraweb_ch.nombre_proyecto' doesn't exist in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php:21
+Stack trace:
+#0 /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php(21): PDO->query('SELECT idp, nom...')
+#1 {main}
+  thrown in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 21
+[29-Sep-2019 23:43:05 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[29-Sep-2019 23:43:05 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:43:05 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:43:05 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'akiraweb_ch.nombre_proyecto' doesn't exist in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php:21
+Stack trace:
+#0 /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php(21): PDO->query('SELECT idp, nom...')
+#1 {main}
+  thrown in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 21
+[29-Sep-2019 23:43:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[29-Sep-2019 23:43:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:43:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:43:19 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'akiraweb_ch.nombre_proyecto' doesn't exist in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php:21
+Stack trace:
+#0 /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php(21): PDO->query('SELECT idp, nom...')
+#1 {main}
+  thrown in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 21
+[29-Sep-2019 23:43:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[29-Sep-2019 23:43:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:43:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:43:19 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'akiraweb_ch.nombre_proyecto' doesn't exist in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php:21
+Stack trace:
+#0 /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php(21): PDO->query('SELECT idp, nom...')
+#1 {main}
+  thrown in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 21
+[29-Sep-2019 23:52:10 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[29-Sep-2019 23:52:10 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:52:10 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[29-Sep-2019 23:52:10 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'proyectos.nombre_proyecto_id' in 'on clause' in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php:21
+Stack trace:
+#0 /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php(21): PDO->query('SELECT idp, nom...')
+#1 {main}
+  thrown in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 21
+[30-Sep-2019 00:27:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:27:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:27:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:27:32 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:27:32 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:27:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:27:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:27:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:27:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:27:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:27:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:27:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:28:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:28:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:28:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:29:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:29:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:29:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:31:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:31:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:31:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:32:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:32:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:32:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:32:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:32:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:32:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:33:00 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:33:00 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:33:01 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:33:01 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:33:05 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:33:05 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:39:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:39:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:39:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:39:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:39:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:39:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:39:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:40:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:40:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:40:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:40:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:40:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:40:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:40:16 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:40:16 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:41:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:41:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:41:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:42:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:42:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:42:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:46:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:46:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:46:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:48:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:48:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:48:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:48:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:48:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:48:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:48:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:48:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:48:25 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:48:25 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:48:25 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:49:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:49:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:49:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:50:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:50:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:50:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:50:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:50:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:50:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:51:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:51:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:51:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:51:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:51:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:51:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:53:51 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:53:51 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:53:51 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:53:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:53:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:53:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:53:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:54:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:54:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:54:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:55:14 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:55:14 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:55:14 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:58:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 00:58:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 00:58:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:12:52 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 01:12:52 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:12:52 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:13:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 01:13:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:13:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:21:30 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 01:21:30 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:21:30 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:22:14 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 01:22:14 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:22:14 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:24:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 01:24:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:24:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:27:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 01:27:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:27:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:28:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 01:28:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:28:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:29:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 01:29:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:29:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:29:52 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 01:29:52 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:29:52 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:30:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 01:30:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:30:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:32:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 01:32:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:32:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:32:53 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 01:32:53 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:32:53 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:43:51 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 01:43:51 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:10:01 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 10:10:01 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:10:01 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:12:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 10:12:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:12:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:13:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 10:13:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:13:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:13:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 10:13:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:13:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:14:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 10:14:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:14:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:17:30 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 10:17:30 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:17:30 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:19:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 10:19:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:19:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:21:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 10:21:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:21:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:25:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 10:25:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:25:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:30:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 10:30:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 10:30:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 11:15:23 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 11:15:23 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 11:15:23 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 11:16:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[30-Sep-2019 11:16:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[30-Sep-2019 11:16:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:24:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 03:24:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:24:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:25:01 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:25:01 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:25:23 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 03:25:23 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:25:23 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:25:32 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 03:25:32 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:25:32 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:26:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 03:26:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:26:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:28:16 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 03:28:16 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:28:16 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:28:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 03:28:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:28:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:29:07 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 03:29:07 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:29:07 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:29:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 03:29:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 03:29:27 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:38:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:38:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:38:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:39:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:39:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:39:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:40:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:40:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:40:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:40:52 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:40:52 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:40:52 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:41:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:41:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:41:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:41:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:41:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:41:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:41:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:41:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:41:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:42:01 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:42:01 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:42:01 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:43:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:43:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:43:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:43:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:43:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:43:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:44:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:44:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:44:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:44:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:44:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:44:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:47:31 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:47:31 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:47:31 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:49:30 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:49:30 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:49:30 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:49:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:49:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:49:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:49:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 19:49:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 19:49:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 21:04:36 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 21:04:36 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 21:04:36 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 21:05:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[01-Oct-2019 21:05:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[01-Oct-2019 21:05:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[02-Oct-2019 12:39:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[02-Oct-2019 12:39:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[02-Oct-2019 12:39:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[02-Oct-2019 12:45:01 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[02-Oct-2019 12:45:01 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[02-Oct-2019 12:45:01 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[02-Oct-2019 12:48:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[02-Oct-2019 12:48:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[02-Oct-2019 12:48:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[03-Oct-2019 14:52:41 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[03-Oct-2019 14:52:41 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[03-Oct-2019 14:52:41 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[03-Oct-2019 15:20:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: qa in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 7
+[03-Oct-2019 15:20:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: from-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14
+[03-Oct-2019 15:20:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: to-date in /home/akiraweb/ch.akirawebandmarketing.com.ar/buscar/get-info.php on line 14

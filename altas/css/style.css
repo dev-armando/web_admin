@@ -1,0 +1,60 @@
+body {background-color: #F5F7FA;}
+.card-columns a {color: #212529;}
+
+.fb-ic {font-size: 1.2em; color: #3b5998 !important;}
+.tw-ic {font-size: 1.2em; color: #55acee !important;}
+.ins-ic {font-size: 1.2em; background: -webkit-linear-gradient(#FFDF9E, #C1558B); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+.pen-ic {color: #0cc27e !important;}
+
+.btn-ic {background-color: #FF586B !important;}
+
+.bg-success-m {background-color: #0cc27e;}
+.bg-light-m {background-color: #fcfcfc;}
+.badge-cate-normal {background-color: #0cc27e; color: #fff;}
+.badge-cate-medium {background-color: #ff8d60; color: #fff;}
+.badge-cate-urgent {background-color: #ff586b; color: #fff;}
+.badge-primary-m {background-color: #F1A058; color: #fff;}
+.badge-primary-a {background-color: #53BBF6; color: #fff;}
+.badge-primary-d {background-color: #F691AF; color: #fff;}
+.badge-primary-mk {background-color: #AA6EF3; color: #fff;}
+.badge-primary-ad {background-color: #1cbcd8; color: #fff;}
+
+.text-light-c {color: #ccc;}
+.nmenu {background-color: #ecfbf9;}
+.ree {background-color: #0cc27e; display: block !important; width: 40px; height: 6px; border-radius: 4px;}
+
+.list-group-item {
+position: relative !important;
+display: block !important;
+padding: .75rem 1.25rem !important;
+margin-bottom: -1px !important;
+border: none !important;
+border-left: 1px solid rgba(0,0,0,.125) !important;
+/*border-right: 1px solid rgba(0,0,0,.125) !important;*/
+}
+
+.list-group-item.active {z-index: 2 !important; color: #444 !important; background-color: #f5f5f5 !important;}
+.svg-icon {height: 1.2em;}
+
+
+.bodyStatus {background-color: #fff;}
+
+.status-0 {
+    background-color: #0CC27E;
+    color: #FFF;
+}
+
+.status-1 {
+    background-color: #FDCF00;
+    color: #FFF;
+}
+
+.status-2 {
+    background-color: #BB0F0F;
+    color: #FFF;
+}
+
+.status-3 {
+    background-color: #BB0F0F;
+    color: #FFF;
+}

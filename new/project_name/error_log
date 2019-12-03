@@ -1,0 +1,5 @@
+[29-Sep-2019 23:43:01 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'akiraweb_ch.nombre_proyecto' doesn't exist in /home/akiraweb/ch.akirawebandmarketing.com.ar/new/project_name/index.php:114
+Stack trace:
+#0 /home/akiraweb/ch.akirawebandmarketing.com.ar/new/project_name/index.php(114): PDO->query('SELECT * FROM n...')
+#1 {main}
+  thrown in /home/akiraweb/ch.akirawebandmarketing.com.ar/new/project_name/index.php on line 114

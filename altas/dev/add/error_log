@@ -1,0 +1,15 @@
+[02-Sep-2019 03:17:02 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE idpro = '3'' at line 1 in /home/akiraweb/ch.akirawebandmarketing.com.ar/dev/add/index.php:124
+Stack trace:
+#0 /home/akiraweb/ch.akirawebandmarketing.com.ar/dev/add/index.php(124): PDO->query('SELECT * FROM h...')
+#1 {main}
+  thrown in /home/akiraweb/ch.akirawebandmarketing.com.ar/dev/add/index.php on line 124
+[02-Sep-2019 03:17:08 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE idpro = '3'' at line 1 in /home/akiraweb/ch.akirawebandmarketing.com.ar/dev/add/index.php:124
+Stack trace:
+#0 /home/akiraweb/ch.akirawebandmarketing.com.ar/dev/add/index.php(124): PDO->query('SELECT * FROM h...')
+#1 {main}
+  thrown in /home/akiraweb/ch.akirawebandmarketing.com.ar/dev/add/index.php on line 124
+[02-Sep-2019 03:17:15 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE idpro = '3'' at line 1 in /home/akiraweb/ch.akirawebandmarketing.com.ar/dev/add/index.php:124
+Stack trace:
+#0 /home/akiraweb/ch.akirawebandmarketing.com.ar/dev/add/index.php(124): PDO->query('SELECT * FROM h...')
+#1 {main}
+  thrown in /home/akiraweb/ch.akirawebandmarketing.com.ar/dev/add/index.php on line 124
