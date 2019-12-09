@@ -57,9 +57,11 @@ $row_u = $userl->fetch();
 <div class="row">
 <div class="col-md-6">
 <div class="p-3 bg-white">
-<h4>Nuevo Cliente</h4>
+<h4>Editar Cliente</h4>
 <p class="mt-4">
 <?php
+
+$id_client = base64_decode($_GET['id']);
 
 if(isset($_POST['down'])){
     
@@ -77,6 +79,30 @@ if(isset($_POST['add'])){
 	} else {
 		echo 'Error';
 	}
+}
+
+else if(isset($_POST['edit'])){
+
+	if(!empty($_POST['crazon'])){
+
+	
+		
+		$add = $conn->prepare("UPDATE clientes SET crazonsocial = :crazonsocial WHERE id = :id ");
+		$add->bindValue(':crazonsocial', $_POST['crazon']);
+		$add->bindValue(':id', $id_client );
+		$add->execute();
+
+		//header('location: ../me');
+		echo '<div class="mb-3">El cliente se Modifico Correctamente</div>';
+	} else {
+		echo 'Error';
+	}
+}
+
+else if(isset($_POST['back'])){
+
+	header('location: index.php');
+	
 }
 
 else if(isset($_POST['up'])){
@@ -113,23 +139,31 @@ else if(isset($_POST['up'])){
 	    echo "Ha ocurrido un error, trate de nuevo!";
 }
 }
+
+
+
+
+
+$cliente = $conn->query("SELECT * FROM clientes where id = $id_client ");
+
+
+$cliente = $cliente->fetch(); 
+
 ?>
 <form action="" method="POST">
 <div class="form-group">
-<input type="text" name="crazon" class="form-control" placeholder="Raz&oacute;n Social (max 40 car)">
+
+
+<input  <?= "value='".$cliente['crazonsocial']."'" ?>   type="text" name="crazon" class="form-control" placeholder="Raz&oacute;n Social (max 40 car)">
 </div>
-<button name="add" class="btn btn-primary btn-sm">Agregar Cliente</button>
+<button name="edit" class="btn btn-primary btn-sm">Editar Cliente</button>
+
+<button name="back" class="btn btn-danger btn-sm">Regresar</button>
+
+
 </form>
 <br>
-<form enctype="multipart/form-data"  method="POST">
-<div class="form-group">
 
-<input type="file" name="uploadedfile">
-
-</div>
-<button name="up" class="btn btn-success btn-sm">Subir Excel</button>
-<button name="down"  onclick="window.location.href = 'http://ch.akirawebandmarketing.com.ar/test.xls'" class="btn btn-success btn-sm">Descargar Modelo</button>
-</form>
 </p>
 </div>
 </div>
@@ -148,6 +182,7 @@ while ($last = $rlast->fetch()) {
 <?=$last['crazonsocial'];?>
 <a style="margin-left: 5px" title="Editar"  <?= Helpers::addHrefID( 'editar.php', $last['id']) ?> ><i class="far fa-edit"></i>
 </a>
+
 <?php if ($last['sin_proyecto']): ?>
 <a style="margin-left: 5px" title="Eliminar"  onclick="return btnBorrar( <?= "'" .$last['id'] . "'" ?> , <?= "'" .$last['crazonsocial'] . "'" ?>    )"  ><i class="fa fa-minus"></i>
 </a>
@@ -166,6 +201,7 @@ while ($last = $rlast->fetch()) {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+
 <script type="text/javascript">
 	
 	function btnBorrar(id , cliente){
@@ -178,6 +214,8 @@ while ($last = $rlast->fetch()) {
 	}
 
 </script>
+
+
 
 </body>
 </html>

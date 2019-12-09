@@ -45,6 +45,11 @@ $menu_adm = isset( $_SESSION['usuario_adm']  ) ? '1' : '0';
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="../../css/style.css">
 <script src="https://kit.fontawesome.com/cbec68f37d.js"></script>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+
+
+
 </head>
 <body>
 <div class="container">
@@ -62,11 +67,11 @@ $menu_adm = isset( $_SESSION['usuario_adm']  ) ? '1' : '0';
 
 <a   href="../../index.php" class="btn btn-sm border rounded-pill"><i class="fas fa-bars"></i> Panel</a>
 
-<?php incluir_file_var('include/menu.php' , array('auxiliar' => '1'  )  ) ?>
+<?php incluir_file_var('include/menu.php' , array('auxiliar' => '1'  )  ) ?> 
 
 <?php else: ?>
 
-<span class="btn btn-sm border rounded-pill"><i class="fas fa-bars"></i> Panel</span>
+<a href="../index.php" class="btn btn-sm border rounded-pill"><i class="fas fa-bars"></i> Panel</a>
 
 <?php endif ?>
 
@@ -150,7 +155,12 @@ if(isset($_POST['add'])){
 <input type="date" name="fechah" class="form-control">
 </div>
 <div class="form-group col-md-5">
-<input type="text" name="horas" class="form-control" placeholder="Asignar horas" maxlength="2">
+
+
+<input type="text" name="horas" class="form-control timepicker" placeholder="Asignar horas" maxlength="2"   >
+
+
+
 </div>
 </div>
 <button name="add" class="btn btn-primary btn-sm">Agregar horas</button>
@@ -215,5 +225,23 @@ while ($fila = $glist->fetch()) {
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+
+
+<script type="text/javascript">
+	
+	$('.timepicker').timepicker({
+    timeFormat: 'h.m',
+    interval: 5,
+    minTime: '01:00am',
+    maxTime: '12:55pm',
+    defaultTime: '23',
+    startTime: '00:00',
+    dynamic: false,
+    dropdown: true,
+    scrollbar: true
+	});
+</script>
 </body>
 </html>
