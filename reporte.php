@@ -20,8 +20,8 @@ $recursos = $conn->query("SELECT re.* FROM `recpro` as rp JOIN recurso as re ON 
 $clientes = $conn->query("SELECT distinct pcliente as nombre FROM `proyectos` as pro JOIN nombre_proyecto as np ON np.id = pro.nombre_proyecto_id");
 
 
-/*$proyectos = $conn->query("SELECT pcliente , idp , np.nombre FROM `proyectos` as pro JOIN nombre_proyecto as np ON np.id = pro.nombre_proyecto_id");
-*/
+$proyectos = $conn->query("SELECT distinct np.* FROM `proyectos` as pro JOIN nombre_proyecto as np ON np.id = pro.nombre_proyecto_id");
+
 
 
 ?>
@@ -45,7 +45,7 @@ $clientes = $conn->query("SELECT distinct pcliente as nombre FROM `proyectos` as
 </a>
 </h2>
 
-<?php incluir_file_var('include/menu.php' , array('opcion' => 'panel'  )  ) ?>
+<?php incluir_file_var('include/menu.php' , array('opcion' => 'reporte'  )  ) ?>
 
 <!--div class="p-3 mt-2">
 <span class="small">data</span>
@@ -62,41 +62,7 @@ $clientes = $conn->query("SELECT distinct pcliente as nombre FROM `proyectos` as
 
 <div class="container">
 <div class="row">
-<!--div class="col-sm-3">
-<div class="card">
-<div class="card-body">
-<h4 class="card-title">250</h4>
-<p class="card-text">Proyectos</p>
-</div>
-</div>
-</div>
 
-<div class="col-sm-3">
-<div class="card">
-<div class="card-body">
-<h4 class="card-title">400</h4>
-<p class="card-text">Usuarios</p>
-</div>
-</div>
-</div>
-
-<div class="col-sm-3">
-<div class="card">
-<div class="card-body">
-<h4 class="card-title">$344140</h4>
-<p class="card-text">Ingresos</p>
-</div>
-</div>
-</div>
-
-<div class="col-sm-3">
-<div class="card">
-<div class="card-body">
-<h4 class="card-title">$15340</h4>
-<p class="card-text">Gastos</p>
-</div>
-</div>
-</div-->
 </div>
 </div>
 
@@ -105,7 +71,7 @@ $clientes = $conn->query("SELECT distinct pcliente as nombre FROM `proyectos` as
 <table id="show-results" class="table bg-white">
 <thead class="thead-light">
 <div class="search-container row">
-    <form>
+
         <div class="col-md-4">
             <div class="form-group">
                 <select  class="form-control" name=recursos >
@@ -122,6 +88,9 @@ $clientes = $conn->query("SELECT distinct pcliente as nombre FROM `proyectos` as
                 <select  class="form-control" name=proyectos >
                     <option selected disabled>Proyectos</option>
                     <option value="T" > TODOS </option>
+                    <?php while ($fila = $proyectos->fetch()): ?>
+                        <option <?= "value='".$fila['id']."'"  ?> >  <?= $fila['nombre'] ?>  </option>
+                    <?php endwhile ?>
                 </select>
             </div>
         </div>
@@ -130,6 +99,9 @@ $clientes = $conn->query("SELECT distinct pcliente as nombre FROM `proyectos` as
                 <select  class="form-control" name=clientes >
                     <option selected disabled>Clientes</option>
                     <option value="T" > TODOS </option>
+                         <?php while ($fila = $clientes->fetch()): ?>
+                        <option <?= "value='".$fila['nombre']."'"  ?> >  <?= $fila['nombre'] ?>  </option>
+                    <?php endwhile ?>
                 </select>
             </div>
         </div>
@@ -150,10 +122,10 @@ $clientes = $conn->query("SELECT distinct pcliente as nombre FROM `proyectos` as
         </div>
         <div class="col-md-2">
             <div class="form-group">
-                <button id="make-query" class="btn btn-primary">Generar</button>
+                <button onclick="return generarReporte()"  id="make-query" class="btn btn-primary">Generar</button>
             </div>
         </div>
-    </form>
+  
 </div>
 <tr style="display: none">
 <th scope="col"><i class="far fa-list-alt"></i> Proyecto</th>
@@ -177,5 +149,19 @@ $clientes = $conn->query("SELECT distinct pcliente as nombre FROM `proyectos` as
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="buscar/ajax.js"></script>
+
+<script>
+    function generarReporte(){
+
+       let desde = $("select[name=from-date]").val(); 
+       let hasta  = $("select[name=to-date]").val();
+       let proyectos  = $("select[name=proyectos]").val(); 
+       let recursos  = $("select[name=recursos]").val(); 
+       let clientes  = $("select[name=clientes]").val();
+
+       window.location.href = `reportes/index.php?desde=${desde}&hasta=${hasta}&proyectos=${proyectos}&recursos=${recursos}&clientes=${clientes}&tipo=reporteMasivo`;   
+    }
+</script>
+
 </body>
 </html>
