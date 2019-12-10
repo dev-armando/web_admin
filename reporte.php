@@ -34,6 +34,13 @@ $proyectos = $conn->query("SELECT distinct np.* FROM `proyectos` as pro JOIN nom
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
 <script src="https://kit.fontawesome.com/cbec68f37d.js"></script>
+
+
+<link href="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/css/select2.min.css" rel="stylesheet" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.min.css" integrity="sha256-nbyata2PJRjImhByQzik2ot6gSHSU4Cqdz5bNYL2zcU=" crossorigin="anonymous" />
+
 </head>
 <body>   
 <div class="container">
@@ -71,12 +78,12 @@ $proyectos = $conn->query("SELECT distinct np.* FROM `proyectos` as pro JOIN nom
 <table id="show-results" class="table bg-white">
 <thead class="thead-light">
 <div class="search-container row">
-
+       <form name=formulario  >
         <div class="col-md-4">
             <div class="form-group">
-                <select  class="form-control" name=recursos >
+                <select  multiple class="form-control" name=recursos[] >
                     <option selected disabled>Recursos</option>
-                    <option value="T" > TODOS </option>
+                    
                     <?php while ($fila = $recursos->fetch()): ?>
                         <option <?= "value='".$fila['id']."'"  ?> >  <?= $fila['rnombre'] ?>  </option>
                     <?php endwhile ?>
@@ -85,7 +92,7 @@ $proyectos = $conn->query("SELECT distinct np.* FROM `proyectos` as pro JOIN nom
         </div>
         <div class="col-md-4">
             <div class="form-group">
-                <select  class="form-control" name=proyectos >
+                <select multiple class="form-control" name=proyectos[] >
                     <option selected disabled>Proyectos</option>
                     <option value="T" > TODOS </option>
                     <?php while ($fila = $proyectos->fetch()): ?>
@@ -96,7 +103,7 @@ $proyectos = $conn->query("SELECT distinct np.* FROM `proyectos` as pro JOIN nom
         </div>
          <div class="col-md-4">
             <div class="form-group">
-                <select  class="form-control" name=clientes >
+                <select multiple class="form-control" name=clientes[]  >
                     <option selected disabled>Clientes</option>
                     <option value="T" > TODOS </option>
                          <?php while ($fila = $clientes->fetch()): ?>
@@ -108,18 +115,17 @@ $proyectos = $conn->query("SELECT distinct np.* FROM `proyectos` as pro JOIN nom
 
         <div class="col-md-2">
             <div class="form-group">
-                <select name="from-date" id="from-date" class="form-control">
-                    <option selected disabled>Desde</option>
-                </select>
+                <input class="form-control" type=date name=from-date >
+
             </div>
         </div>
         <div class="col-md-2">
             <div class="form-group">
-                <select name="to-date" id="to-date" class="form-control">
-                    <option selected disabled>Hasta</option>
-                </select>
+                <input class="form-control" type=date name=to-date >
+
             </div>
         </div>
+         </form>
         <div class="col-md-2">
             <div class="form-group">
                 <button onclick="return generarReporte()"  id="make-query" class="btn btn-primary">Generar</button>
@@ -148,6 +154,10 @@ $proyectos = $conn->query("SELECT distinct np.* FROM `proyectos` as pro JOIN nom
 
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/js/select2.min.js"></script>
+
+
 <script src="buscar/ajax.js"></script>
 
 <script>
@@ -159,8 +169,12 @@ $proyectos = $conn->query("SELECT distinct np.* FROM `proyectos` as pro JOIN nom
        let recursos  = $("select[name=recursos]").val(); 
        let clientes  = $("select[name=clientes]").val();
 
+       let formulario = $("form[name=formulario]").serialize()
+
        window.location.href = `reportes/index.php?desde=${desde}&hasta=${hasta}&proyectos=${proyectos}&recursos=${recursos}&clientes=${clientes}&tipo=reporteMasivo`;   
     }
+
+    $("select").select2()
 </script>
 
 </body>
