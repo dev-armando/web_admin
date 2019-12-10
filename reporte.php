@@ -14,7 +14,7 @@ $row_u = $userl->fetch();
 
 
 
-$recursos = $conn->query("SELECT re.* FROM `recpro` as rp JOIN recurso as re ON re.id = rp.idrec");
+$recursos = $conn->query("SELECT distinct re.* FROM `recpro` as rp JOIN recurso as re ON re.id = rp.idrecc");
 
 
 $clientes = $conn->query("SELECT distinct pcliente as nombre FROM `proyectos` as pro JOIN nombre_proyecto as np ON np.id = pro.nombre_proyecto_id");
@@ -163,15 +163,15 @@ $proyectos = $conn->query("SELECT distinct np.* FROM `proyectos` as pro JOIN nom
 <script>
     function generarReporte(){
 
-       let desde = $("select[name=from-date]").val(); 
+      /* let desde = $("select[name=from-date]").val(); 
        let hasta  = $("select[name=to-date]").val();
        let proyectos  = $("select[name=proyectos]").val(); 
        let recursos  = $("select[name=recursos]").val(); 
-       let clientes  = $("select[name=clientes]").val();
+       let clientes  = $("select[name=clientes]").val();*/
 
        let formulario = $("form[name=formulario]").serialize()
 
-       window.location.href = `reportes/index.php?desde=${desde}&hasta=${hasta}&proyectos=${proyectos}&recursos=${recursos}&clientes=${clientes}&tipo=reporteMasivo`;   
+       window.location.href = `reportes/index.php?${formulario}&tipo=reporteMasivo`;   
     }
 
     $("select").select2()

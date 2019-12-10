@@ -196,17 +196,29 @@ class Reportes
         $glist = $conn->query("SELECT * from reporte_horas where  id_proyecto = $idp   ");
 
 
-        while ($fila = $glist->fetch())  $row[$i++] = $fila
+        while ($fila = $glist->fetch())  $row[$i++] = $fila;
 
 
         return $row;
 
     }
 
+    public function toString($data){
+
+
+            $data2 = array(); 
+            $i = 0; 
+
+            foreach ($data as $value) $data2[$i++] = "'" . $value . "'";
+
+            return $data2; 
+    }
+
 
     public function reporte_consulta_masiva($data = array()){
 
         extract($data); 
+        
 
          $conn = $this->conn;
 
@@ -214,15 +226,63 @@ class Reportes
 
         $i = 0 ; 
 
-        $idp = $_GET['idp'];
+        $and = ""; 
 
-        $user = $this->getRecurso()['rusuario']; 
+        if( isset($clientes) ){
+
+            $clientes = $this->toString($clientes); 
+
+            $clientes = implode(",", $clientes);
+            $and .= " and p.pcliente IN (" . $clientes.")"; 
 
 
-        $glist = $conn->query("SELECT * from reporte_horas where  id_proyecto = $idp   ");
+        }
+
+         if( isset($proyectos) ){
+
+            $proyectos = implode(",", $proyectos);
+            $and .= " and np.id IN (" . $proyectos.")"; 
 
 
-        while ($fila = $glist->fetch())  $row[$i++] = $fila
+        }
+
+        if( isset($recursos) ){
+
+            $recursos = implode(",", $recursos);
+            $and .= " and rp.idrecurso IN (" . $recursos.")"; 
+        }
+
+
+        if( isset($desde) ){
+
+           if( $desde != ""  ) $and .= " and rp.fechah > '".$desde."'"; 
+        }
+
+
+        if( isset($hasta) ){
+            if( $hasta != ""  ) $and .= " and rp.fechah < '".$hasta."'"; 
+        }
+
+
+
+
+        $sql = "SELECT
+            `p`.`idp` AS `id_proyecto`,
+            `p`.`pdescrip` AS `pdescrip`,
+            `np`.`nombre` AS `titulo`,
+            `r`.`rusuario` AS `usuario`,
+            `rp`.`fechah` AS `fecha`,
+            `rp`.`hdate` AS `fecha_cre`,
+            `rp`.`totalh` AS `total_horas`,
+            `hr`.`v_hora` AS `valor_hora` ,
+              p.pcliente as cliente 
+            FROM
+            ((((`proyectos` `p`JOIN  `nombre_proyecto` `np` ON ( `np`.`id` = `p`.`nombre_proyecto_id`)) JOIN  `horaspro` `rp` ON (`rp`.`idpro` = `p`.`idp`)) JOIN  `recurso` `r` ON (`r`.`id` = `rp`.`idrecurso`))  JOIN  `recurso_hora` `hr` ON ( `hr`.`id` = `rp`.`id_usuario_hora`)) WHERE 1=1 {$and} ";
+          
+        $glist = $conn->query($sql);
+
+
+        while ($fila = $glist->fetch())  $row[$i++] = $fila;
 
 
         return $row;
@@ -336,9 +396,27 @@ $reporte = new Reportes($conn);
 extract($_GET); 
 
 
-if(isset($reporteMasivo)){
+if(isset($tipo)){
+
+    if($tipo == 'reporteMasivo'){
+
+        
+         $data = $reporte->reporte_consulta_masiva(array(
+            'clientes' => $clientes,
+            'proyectos' => $proyectos,
+            'desde' => $_GET['from-date'],
+            'hasta' => $_GET['to-date'],
+            'recursos' => $recursos,
+
+         ));
+        
+        $reporte->reporte($data);
+    }
 
     //reporte masivo 
+
+
+    
 
 
 }
