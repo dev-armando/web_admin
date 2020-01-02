@@ -1,26 +1,11 @@
 <?php
 
-
-
-//ini_set('display_errors' , 'On');
-
-
-
+// ini_set('display_errors' , 'On');
 session_start();
-
-
-
 require_once '../include/phpexcel/PHPExcel/IOFactory.php' ;
-
 include '../crm/connect.php';
 
-
-
- 
-
-class Reportes 
-
-{
+class Reportes {
 
 
 
@@ -32,113 +17,105 @@ class Reportes
 
 
 
+        date_default_timezone_set('Europe/London');
 
+        $objReader = \PHPExcel_IOFactory::createReader('Excel5');
+
+        $objPHPExcel = $objReader->load("../include/phpexcel/modelo.xls");
+        $objPHPExcel->getActiveSheet()->setCellValue('A1', 'Titulo ');
+        $objPHPExcel->getActiveSheet()->setCellValue('B1', 'Descripcion');
+        $objPHPExcel->getActiveSheet()->setCellValue('C1', 'Fecha');
+        $objPHPExcel->getActiveSheet()->setCellValue('D1', 'Horas Cargadas');
+        $objPHPExcel->getActiveSheet()->setCellValue('E1', 'Fecha de Creacion');
+        $objPHPExcel->getActiveSheet()->setCellValue('F1', 'Usuario');
+       
+        $baseRow = 2;
+
+       foreach($data as $r => $dataRow) {
+
+            $row = $baseRow + $r;
+            extract($dataRow);
+            $objPHPExcel->getActiveSheet()
+                ->setCellValue('A'.$row, $titulo)
+                ->setCellValue('B'.$row,  $pdescrip)
+                ->setCellValue('F'.$row,  $usuario)
+                ->setCellValue('C'.$row, $fecha )
+                ->setCellValue('D'.$row,  $total_horas )
+                ->setCellValue('E'.$row,  $fecha_cre );
+        }
+
+    $objWriter = \PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel5');
+
+      // Redirect output to a client’s web browser (Excel5)
+
+    header('Content-Type: application/vnd.ms-excel');
+    header('Content-Disposition: attachment;filename="reporte_recurso.xls"');
+    header('Cache-Control: max-age=0');
+    // If you're serving to IE 9, then the following may be needed
+    header('Cache-Control: max-age=1');
+    // If you're serving to IE over SSL, then the following may be needed
+    header ('Expires: Mon, 26 Jul 1997 05:00:00 GMT'); // Date in the past
+    header ('Last-Modified: '.gmdate('D, d M Y H:i:s').' GMT'); // always modified
+    header ('Cache-Control: cache, must-revalidate'); // HTTP/1.1
+    header ('Pragma: public'); // HTTP/1.0
+
+    $objWriter->save('php://output');
+    exit;
+    }
+
+    public function reporte_all($data = array()  ){
 
 
 
         date_default_timezone_set('Europe/London');
 
-
-
         $objReader = \PHPExcel_IOFactory::createReader('Excel5');
 
         $objPHPExcel = $objReader->load("../include/phpexcel/modelo.xls");
-
-
-
-         $objPHPExcel->getActiveSheet()->setCellValue('A1', 'Titulo ');
-
-         $objPHPExcel->getActiveSheet()->setCellValue('B1', 'Descripcion');
-
-         $objPHPExcel->getActiveSheet()->setCellValue('C1', 'Fecha');
-
-         $objPHPExcel->getActiveSheet()->setCellValue('D1', 'Horas Cargadas');
-
-         $objPHPExcel->getActiveSheet()->setCellValue('E1', 'Fecha de Creacion');
-
-         $objPHPExcel->getActiveSheet()->setCellValue('F1', 'Usuario');
-
-         
-
+        $objPHPExcel->getActiveSheet()->setCellValue('A1', 'Titulo ');
+        $objPHPExcel->getActiveSheet()->setCellValue('B1', 'Descripcion');
+        $objPHPExcel->getActiveSheet()->setCellValue('C1', 'Fecha');
+        $objPHPExcel->getActiveSheet()->setCellValue('D1', 'Horas Cargadas');
+        $objPHPExcel->getActiveSheet()->setCellValue('E1', 'Fecha de Creacion');
+        $objPHPExcel->getActiveSheet()->setCellValue('F1', 'Usuario');
+        $objPHPExcel->getActiveSheet()->setCellValue('G1', 'Cliente');
+       
         $baseRow = 2;
-
-
 
        foreach($data as $r => $dataRow) {
 
             $row = $baseRow + $r;
-
-    
-
             extract($dataRow);
-
-            $objPHPExcel->getActiveSheet()->setCellValue('A'.$row, $titulo)
-
-                                   ->setCellValue('B'.$row,  $pdescrip    )
-
-                                   ->setCellValue('F'.$row,  $usuario    )
-
-                                ->setCellValue('C'.$row, $fecha )
-
-                                ->setCellValue('D'.$row,  $total_horas )
-
-                                ->setCellValue('E'.$row,  $fecha_cre );
-
-
-
+            $objPHPExcel->getActiveSheet()
+                ->setCellValue('A'.$row, $titulo)
+                ->setCellValue('B'.$row,  $pdescrip)
+                ->setCellValue('F'.$row,  $usuario)
+                ->setCellValue('G'.$row,  $cliente)
+                ->setCellValue('C'.$row, $fecha )
+                ->setCellValue('D'.$row,  $total_horas )
+                ->setCellValue('E'.$row,  $fecha_cre );
         }
 
-
-
- 
-
     $objWriter = \PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel5');
-
-
 
       // Redirect output to a client’s web browser (Excel5)
 
     header('Content-Type: application/vnd.ms-excel');
-
     header('Content-Disposition: attachment;filename="reporte_recurso.xls"');
-
     header('Cache-Control: max-age=0');
-
     // If you're serving to IE 9, then the following may be needed
-
     header('Cache-Control: max-age=1');
-
-
-
     // If you're serving to IE over SSL, then the following may be needed
-
     header ('Expires: Mon, 26 Jul 1997 05:00:00 GMT'); // Date in the past
-
     header ('Last-Modified: '.gmdate('D, d M Y H:i:s').' GMT'); // always modified
-
     header ('Cache-Control: cache, must-revalidate'); // HTTP/1.1
-
     header ('Pragma: public'); // HTTP/1.0
 
-
-
-
-
     $objWriter->save('php://output');
-
     exit;
-
     }
 
-
-
-    public function __construct($conn){
-
-
-
-        $this->conn = $conn; 
-
-    }
+    public function __construct($conn){$this->conn = $conn; }
 
 
 
@@ -146,28 +123,14 @@ class Reportes
 
     public function reporte_consulta(){
 
-        
-
-         $conn = $this->conn;
-
+        $conn = $this->conn;
         $row = array(); 
-
         $i = 0 ; 
-
         $idp = $_GET['idp'];
-
         $user = $this->getRecurso()['rusuario']; 
-
-
-
         $glist = $conn->query("SELECT * from reporte_horas where usuario = '$user' and id_proyecto = $idp   ");
 
-
-
         while ($fila = $glist->fetch())  $row[$i++] = $fila;
-
-
-
         return $row;
 
 
@@ -182,17 +145,11 @@ class Reportes
 
         
 
-         $conn = $this->conn;
-
+        $conn = $this->conn;
         $row = array(); 
-
         $i = 0 ; 
-
         $idp = $_GET['idp'];
-
         $user = $this->getRecurso()['rusuario']; 
-
-
         $glist = $conn->query("SELECT * from reporte_horas where  id_proyecto = $idp   ");
 
 
@@ -230,26 +187,31 @@ class Reportes
 
         if( isset($clientes) ){
 
-            $clientes = $this->toString($clientes); 
+            if(!in_array("T", $clientes)){
 
-            $clientes = implode(",", $clientes);
-            $and .= " and p.pcliente IN (" . $clientes.")"; 
+                $clientes = $this->toString($clientes); 
 
+                $clientes = implode(",", $clientes);
+                $and .= " and p.pcliente IN (" . $clientes.")"; 
 
+            }
         }
 
          if( isset($proyectos) ){
 
+            if(!in_array("T", $proyectos)){
+
             $proyectos = implode(",", $proyectos);
             $and .= " and np.id IN (" . $proyectos.")"; 
-
+            }
 
         }
 
         if( isset($recursos) ){
-
+            if(!in_array("T", $recursos)){
             $recursos = implode(",", $recursos);
             $and .= " and rp.idrecurso IN (" . $recursos.")"; 
+            } 
         }
 
 
@@ -410,7 +372,7 @@ if(isset($tipo)){
 
          ));
         
-        $reporte->reporte($data);
+        $reporte->reporte_all($data);
     }
 
     //reporte masivo 
